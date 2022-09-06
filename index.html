@@ -4,53 +4,166 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Basic Profile Section</h1>
-    <p> Yaw Kessey-Ankomah </p>
-    <p> Computer Science </p>
-    <img src="7A8BFC02-752D-406A-8FF8-632F4FCD1FB4_1_201_a.jpeg" width=20% />
+    <div class="menuSection">
+        <a href="#basicProfile">Profile</a>
+        <a href="#educationSummary">Education</a>
+        <a href="#workSummary">Previous Work Experience</a>
+        <a href="#programmingSkills">Programming Skills</a>
+        <a href="#generalInterest">General Interest</a>
+        <a href="#favorites">Favorites</a>
+        <a href="#favoriteWebsites">Favorite Websites</a>
 
 
-    <h1>Education Summary Section</h1>
 
 
-    <h1> Work Experience/Internships</h1>
-    <h3>Futureforce Tech Launchpad Intern, Salesforce, San Francisco, CA </h3>
-    <ul>
-        <li>
-            Learned and developed a foundational knowledge of full-stack web 
-            development with an understanding of connections between database, 
-            backend code, frontend code, testing, design, and deployment
-        </li>
-        <li>
-            Implemented skills in PostgreSQL, ExpressJS, React, NodeJS and 
-            Heroku to build and deploy a web application
-        </li>
-    </ul>
-
-    <h3>Habit Traker, Capstone Project</h3>
-    <ul>
-        <li>
-            Collaborated with a 3-person team in developing an interactive 
-            website with the PERN stack where users can build habits, set 
-            personal goals, and track progress
-        </li>
-        <li>
-            Implemented user authentication, habit reminders, and habit 
-            statistics logic
-        </li>
-    </ul>
-
-    <h1> Programming Skills Section</h1>
+    </div>
+    <div id="basicProfile">
+        <h1>Basic Profile Section</h1>
+        <p> Yaw Kessey-Ankomah </p>
+        <p> Computer Science </p>
+        <img src="7A8BFC02-752D-406A-8FF8-632F4FCD1FB4_1_201_a.jpeg" width=20% />
+        <br/>
+        <br/>
+    </div>
 
 
-    <h1> General Interest Section </h1>
+    <div id="educationSummary">
+        <h1>Education Summary Section</h1>
+        <h3>St. John's University, Collins College of Profeessional Studies</h3>
+        <ul>
+            <li>Bachelor of Science, Computer Science</li>
+        </ul>
+        <br/>
+    </div>
 
-    <h1> Favorite song, film, and TV show section </h1>
 
-    <h1> Favorite Website Section </h1> 
+    <div id="workSummary">
+        <div class="salesforce">
+            <h1> Work Experience/Internships</h1>
+            <h3>Futureforce Tech Launchpad Intern, Salesforce, San Francisco, CA </h3>
+            <ul>
+                <li>
+                    Learned and developed a foundational knowledge of full-stack web 
+                    development with an understanding of connections between database, 
+                    backend code, frontend code, testing, design, and deployment
+                </li>
+                <li>
+                    Implemented skills in PostgreSQL, ExpressJS, React, NodeJS and 
+                    Heroku to build and deploy a web application
+                </li>
+            </ul>
+        </div>
+        <div class="habitTraker">
+            <h3>Habit Traker, Capstone Project</h3>
+            <ul>
+                <li>
+                    Collaborated with a 3-person team in developing an interactive 
+                    website with the PERN stack where users can build habits, set 
+                    personal goals, and track progress
+                </li>
+                <li>
+                    Implemented user authentication, habit reminders, and habit 
+                    statistics logic
+                </li>
+            </ul>
+        </div>
+        <div class="lsmGame">
+            <h3>Light & Sound Memory Game, Personal Project</h3>
+            <ul>
+                <li>
+                    Developed a light and sound memory game in HTML, CSS, and 
+                    Javascript that allows users to test their memory by repeating 
+                    back a sequence of sounds
+                </li>
+            </ul>
+        </div>
+        <br/>
+    </div>
 
-    <h1> Menu Section </h1>
+    <div id="programmingSkills">
+        <h1> Programming Skills Section</h1>
+        <table>
+            <tr>
+                <th> Programming language </th>
+                <th> Level of Experience </th>
+            </tr>
+            <tr>
+                <td> Javascript </td>
+                <td> Intermediate </td>
+            </tr>
+            <tr>
+                <td> Java </td>
+                <td> Intermediate </td>
+            </tr>
+            <tr>
+                <td> React </td>
+                <td> Intermediate </td>
+            </tr>
+            <tr>
+                <td> HTML </td>
+                <td> Intermediate </td>
+            </tr>
+            <tr>
+                <td> CSS </td>
+                <td> Intermediate </td>
+            </tr>
+        </table>
+        <br/>
+    </div>
+    
 
-    <h1> CUS 1172 Projects </h1>
-</body>
+    <div id="generalInterest">
+        <h1> General Interest Section </h1>
+        <span> My hobbies include playing piano and trying out new foods </span>
+    </div>
+
+
+    <div id="favorites">
+        <h1> Favorite song, film, and TV show section </h1>
+        <table>
+            <tr>
+                <th> Favorite Song </th>
+                <th> Favorite Film </th>
+                <th> Favorite TV Show </th>
+            </tr>
+            <tr>
+                <td> Savior by Kendrick Lamar </td>
+                <td> The Dictator </td>
+                <td> Power </td>
+
+            </tr>
+        </table>
+
+    </div>
+
+
+    <div id="favoriteWebsites">
+        <h1> Favorite Website Section </h1> 
+        <ul>
+            <li>
+                <a href="https://www.w3schools.com/" target="_blank">W3Schools</a>
+            </li>
+            <li>
+                <a href="https://www.geeksforgeeks.org/" target="_blank">GeeksForGeeks</a>
+            </li>
+            <li>
+                <a href="https://stackoverflow.com/" target="_blank">StackOverflow</a>
+            </li>
+            <li>
+                <a href="https://www.netflix.com/" target="_blank">Netflix</a>
+            </li>
+
+        </ul>
+    </div>
+
+
+    <div class="courseProjects">
+        <h1> CUS 1172 Projects </h1>
+        <ul>
+            <li> <a href="https://github.com/yawkessey/CUS1172-Project1">Portfolion Website  </a></li>
+            <span>Summary: Make your resume into a website. </span>
+        </ul>
+
+    </div>
+</body> 
 </html>
