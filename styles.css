@@ -147,3 +147,60 @@ div {
     object-fit: cover;
 }
 
+.projectContent {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.projectSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.projectCard {
+    height: auto;
+    min-width: auto;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+.projectImg {
+    max-width: 500px;
+    min-width: auto;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+
+.projectHeader {
+    padding: 20px;
+    font-weight: 400;
+}
+
+.projectDescription {
+    max-width: 250px;
+    height: 150px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: .9rem;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+    background-color: black;
+    color: white; 
+    border-radius: 8px;
+    border: none;
+}
+
+#favorites ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
