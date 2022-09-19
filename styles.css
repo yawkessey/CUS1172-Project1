@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f8f9fa;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size: medium;
+}
+h1, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: row;
+}
+.menuSection {
+  display: flex;
+  flex-direction: row;
+}
+* {
+  box-sizing: border-box;
+}
+.navbar-options {
+  justify-content: center;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+  align-items: stretch;
+  padding: 0 1rem;
+}
+.navbar a {
+  color: inherit;
+  text-decoration: none;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0.25rem;
+  border: 1px solid;
+  background-color: lightblue;
+}
+div {
+  display: block;
+}
+
+.about-row {
+  display: flex;
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  /* flex-wrap: wrap; */
+  margin-right: calc(-0.5 * var(--bs-gutter-x));
+  margin-left: calc(-0.5 * var(--bs-gutter-x));
+  justify-content: center;
+}
+.img img {
+  padding: 5px;
+  margin: 5px;
+  width: 360px;
+  vertical-align: middle;
+}
+
+.img-text {
+  padding: 0px 12px;
+  justify-content: center;
+}
+
+.college {
+  display: flex;
+  flex-direction: column;
+}
+
+#workSummary {
+  display: flex;
+  flex-direction: column;
+}
+
+.experiences {
+  display: flex;
+}
+
+.workSec {
+  display: flex;
+}
+
+#programLevel {
+  border-collapse: collapse;
+  width: 80%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#programLevel td,
+#programLevel th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#programLevel tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#programLevel tr:hover {
+  background-color: #ddd;
+}
+
+#programmingSkills {
+  display: flex;
+  flex-direction: column;
+}
+
+#programLevel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+
+#favoriteWebsites ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+#favoriteWebsites img {
+    float: left; 
+    width: 200px;
+    object-fit: cover;
+}
+
